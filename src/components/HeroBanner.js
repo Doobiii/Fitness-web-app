@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Stack, Typography, Button } from '@mui/material'
+import { Box,Typography, Button } from '@mui/material'
 import HeroBannerImage from '../assets/images/banner.png'
 const HeroBanner = () => {
     return (
@@ -41,7 +41,7 @@ const HeroBanner = () => {
                 fontSize='200px'
             >
                 Exercise
-            </Typography>
+            </Typography>          
             <img
                 src={HeroBannerImage}
                 alt='banner'
