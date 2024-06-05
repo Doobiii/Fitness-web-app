@@ -17,7 +17,7 @@ const SearchExercises = ({setExercises,bodyPart, setBodyPart}) => {
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchDataAll();
-      console.log(exercisesData)
+      // console.log(exercisesData)
       const searchedExercises = exercisesData.filter(
         (item) => item.target.toLowerCase().includes(search)
         || item.name.toLowerCase().includes(search)
